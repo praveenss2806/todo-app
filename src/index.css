@@ -12,6 +12,7 @@ body {
     margin-right: 30%;
     margin-left: 30%;
     border-radius: 4px;
+    padding-bottom: 10px;
 }
 
 .heading-div {
@@ -77,4 +78,19 @@ body {
     display: flex;
     align-items: center;
     padding-left: 10px;
+}
+
+.val-div {
+    width: 90%;
+}
+
+.img-div {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    height: 20px;
+    cursor: pointer;
 }
