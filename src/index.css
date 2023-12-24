@@ -60,3 +60,20 @@ body {
     font-size: 12px;
     cursor: pointer;
 }
+
+.task-list-div {
+    display: flex;
+    justify-content: center;
+}
+
+.task-div {
+    width: 80%;
+    height: 36px;
+    background-color: rgb(146, 130, 238);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
