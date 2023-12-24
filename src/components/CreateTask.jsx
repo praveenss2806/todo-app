@@ -9,6 +9,7 @@ const CreateTask = ({handleTask}) => {
 
     const handleClick = () => {
         handleTask(task)
+        setTask('')
     }
 
 
