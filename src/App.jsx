@@ -11,11 +11,17 @@ const App = () => {
         setTaskData([task,...taskData])
     }
 
+    const deleteTask = (value) => {
+        setTaskData(taskData.filter((task) => {
+            return task !== value
+        }))
+    }
+
     return (
         <Box>
             <Heading/>
             <CreateTask handleTask={createTask}/>
-            <TaskList taskData={taskData}/>
+            <TaskList taskData={taskData} updateTaskData={deleteTask}/>
         </Box>
     )   
 }
